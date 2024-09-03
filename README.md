@@ -47,8 +47,8 @@ python3 -m bytewax.run basic_request.py
 
 
 ## dataflow.py
-This script provides and example that uses custom sink and sources defined in [influx_connetor.py](./influx_connector.py) to downsample 1 minute of data every 10 seconds by:
-1. Querying InfluxBDand returing a dataframe.
+This script provides an example that uses custom sink and sources defined in [influx_connetor.py](./influx_connector.py) to downsample 1 minute of data every 10 seconds by:
+1. Querying InfluxBD and returing a dataframe.
 2. Using SQL to aggregate the values.
 3. Writing the downsampled dataframe back to InfluxDB.
    
